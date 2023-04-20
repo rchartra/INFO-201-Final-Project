@@ -11,5 +11,5 @@ Possible database ideas:
       - Shows the enrollment percentage of different races
       - Has average SAT score for each school
       
-      I feel like we could build questions or stories off of this dataset like how does this effect college enrollment, job prospects, or something like that. 
+ 
 
