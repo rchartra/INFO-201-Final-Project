@@ -16,7 +16,7 @@ Education is not only a basic human right, it is also an inevitable factor on fi
       * 488 rows (schools)
       * 224 columns
 
-2. New York City Income
+2. New York Household Income by School District
       * https://wallethub.com/edu/e/most-least-equitable-school-districts-in-new-york/77112
       * Journalist at wallethub used national census data and data from the National Center for Education Statistics to rank New York school districs by equity. Includes average household income and school expenditures per pupil.
       * 674 rows (districts)
@@ -24,11 +24,11 @@ Education is not only a basic human right, it is also an inevitable factor on fi
       
 # Background Research
 
-- https://www.un.org/en/un-chronicle/recognizing-and-overcoming-inequity-education
-      - The causes of educational inequity: 
-            - Teachers are key agents for learning
-      - The importance of equity in education 
-            - Education is a basic human right
+1. https://www.un.org/en/un-chronicle/recognizing-and-overcoming-inequity-education
+      * The causes of educational inequity: 
+            * Teachers are key agents for learning
+      * The importance of equity in education 
+            * Education is a basic human right
       
  
 
