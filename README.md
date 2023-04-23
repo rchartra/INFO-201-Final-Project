@@ -8,19 +8,19 @@ Generally, privileged group of people will be easier to access any academic reso
 
 Education is not only a basic human right, it is also an inevitable factor on financial security, responsible citizenship and sustainable development. Therefore, it is crucial to have equity in education so that we could help underprivileged students to earn an equal opportunity in order for them to have a better learning environment and gain access to a brighter future. We believe our story will push the viewers to confront the systemic barrier that keep millions of students from reaching their full potential and motivates them to work towards the goal where everyone has the chance to achieve. Also, we hope to inspire the viewers to reflect and contribute on creating an equitable education system that will help those who are under-served and disadvantaged in education. 
 
+# Datasets:
 
-# Brainstorm notes:
+1. NYC High School Quality Rankings
+      * https://infohub.nyced.org/reports/school-quality/school-quality-reports-and-resources/school-quality-report-citywide-data
+      * Quality measures, demographics, and measures of student success collected by the NYC department of education by surveys and formal school visists
+      * 488 rows (schools)
+      * 224 columns
 
-Possible database ideas:
-
-- https://data.cityofnewyork.us/Education/2013-2014-School-Quality-Reports-Results-for-High-/bm9v-cvch
-      - Categorization of NYC schools by the quality of the education they provide in 2013-2014
-          - Very detailed categorizations of rankings
-      - Shows the enrollment percentage of different races
-      - Has average SAT score for each school
-      
-      
-      
+2. New York City Income
+      * https://wallethub.com/edu/e/most-least-equitable-school-districts-in-new-york/77112
+      * Journalist at wallethub used national census data and data from the National Center for Education Statistics to rank New York school districs by equity. Includes average household income and school expenditures per pupil.
+      * 674 rows (districts)
+      * 5 columns   
       
 # Background Research
 
