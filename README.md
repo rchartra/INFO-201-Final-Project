@@ -25,10 +25,10 @@ Education is not only a basic human right, it is also an inevitable factor on fi
 # Background Research
 
 1. https://www.un.org/en/un-chronicle/recognizing-and-overcoming-inequity-education
-      * The causes of educational inequity: 
-            * Teachers are key agents for learning
-      * The importance of equity in education 
-            * Education is a basic human right
+     * The causes of educational inequity: 
+          * Teachers are key agents for learning
+     * The importance of equity in education 
+          * Education is a basic human right
       
  
 
