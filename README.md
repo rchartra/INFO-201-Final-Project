@@ -16,11 +16,11 @@ Education is not only a basic human right, it is also an inevitable factor on fi
       * 488 rows (schools)
       * 224 columns
 
-2. New York Household Income by School District
-      * https://wallethub.com/edu/e/most-least-equitable-school-districts-in-new-york/77112
-      * Journalist at wallethub used national census data and data from the National Center for Education Statistics to rank New York school districs by equity. Includes average household income and school expenditures per pupil.
-      * 674 rows (districts)
-      * 5 columns   
+2. NYC School District Breakdown
+      * https://data.cityofnewyork.us/Education/School-District-Breakdowns/g3vh-kbnw/explore
+      * Percentage of people receiving public assistance based on school district.
+      * 32 rows (districts)
+      * 45 columns   
       
 # Background Research
 
