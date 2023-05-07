@@ -1,0 +1,30 @@
+library(dplyr)
+library(stringr)
+library(readxl)
+
+df_1 <- read.csv("school-district-breakdowns.csv") 
+df_2 <- read_excel("Operating Charters 2021-22.xlsx")
+
+#clean dataframe to get school district and fund received
+receive_fund_df <- select(df_1,JURISDICTION.NAME, PERCENT.RECEIVES.PUBLIC.ASSISTANCE)
+colnames(receive_fund_df)[1] = "School.District"
+school_district <- substring(receive_fund_df$School.District, first=1, last=6)
+
+word <- c()
+for(i in 1:9){ 
+  word <- c(word, school_district[i])
+  school_district[i] <- str_remove(word[i],"0")
+}
+
+receive_fund_df$School.District <- school_district
+
+#clean dataframe to get DBN and school district only
+dbn_df <-  filter(df_2, df_2$DBN != "-")
+colnames(dbn_df)[4] = "School.District"
+dbn_df <- select(dbn_df, DBN, School.District)
+school_district_dbn <- substring(dbn_df$School.District, first=5, last=10)
+dbn_df$School.District <- school_district_dbn
+
+dbn_receive_fund_df <-  merge(dbn_df, receive_fund_df, by = "School.District")
+
+write.csv(dbn_receive_fund_df, "Publis_Assistance.csv")
