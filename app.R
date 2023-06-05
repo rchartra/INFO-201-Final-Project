@@ -240,14 +240,15 @@ summary <- tabPanel(
   title = "Summary",
   titlePanel("Summary about Education Inequity in Datasets"),
   
-  p("We find out that most of the high schools' success metrics are impacted by their income level 
-    and learning environment, which makes us believe that there is an inequity in education."),
+  p("We find out that most of the high schools' success metrics are impacted by their income level, school quality 
+    and learning resources, which makes us believe that there is an inequity in education. The exception to this
+    pattern are the specialized high schools, which perform much better than all other schools overall."),
   
   br(),
   
   h3(strong("Justification")),  
   p("Even though we found a special case where the low income groups actually did better than the high income groups in some tests,
-    we decided not to take it into consideration when making the conclusion because it's a rare case that shouldn't be taken into consideration. 
+    we decided not to take it into consideration when making the conclusion because it's an ambiguous case. 
     As suggested by the visuals before, we can tell that the educational resources are not distributed evenly across the high schools. Generally, 
     students with a low economic status are less likely to achieve in education. This is because the school districts that have a 
     large proportion of students with low income backgrounds receive less funding and support outside of government funds. They typically 
